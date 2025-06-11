@@ -93,44 +93,6 @@
       color: #ffeb3b;
     }
 
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 25px;
-      margin-top: 30px;
-    }
-    .gallery-item {
-      position: relative;
-      overflow: hidden;
-      border-radius: 15px;
-      background-color: #222;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.5);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 10px;
-      height: auto;
-      max-height: 240px;
-    }
-
-    .gallery-item img {
-      height: 220px;
-      width: auto;
-      object-fit: contain;
-      display: block;
-      background-color: transparent;
-    }
-
-    .gallery-caption {
-      position: absolute;
-      bottom: 0;
-      background: rgba(0,0,0,0.7);
-      width: 100%;
-      text-align: center;
-      padding: 12px;
-      font-weight: bold;
-    }
-
     .contact {
       background: #1e1e2f;
       padding: 40px;
@@ -186,14 +148,20 @@
     </div>
   </section>
 
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-
-    <h3 style="color:#ffeb3b; margin-top:40px;">Thumbnails</h3>
-    <div class="gallery">
-      <div class="gallery-item">
-        <img src="images/min.png" alt="Math Tricks Thumbnail">
-        <div class="gallery-caption">Thumbnail for educational video</div>
+  <section id="why-me">
+    <h2>Why Choose Me?</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Original Designs</h3>
+        <p>Every logo and graphic is crafted from scratch—no templates or reused designs.</p>
+      </div>
+      <div class="service-card">
+        <h3>Fast & Reliable</h3>
+        <p>I deliver high-quality work quickly while maintaining excellent communication.</p>
+      </div>
+      <div class="service-card">
+        <h3>Client-Focused</h3>
+        <p>I listen to your needs and adapt the design until you're 100% satisfied.</p>
       </div>
     </div>
   </section>
